@@ -1,0 +1,61 @@
+MYSQL 
+
+
+create database inv_ip;
+use inv_ip;
+create table movie
+(
+movie CHAR(30),
+theater CHAR(30),
+address CHAR(20),
+type char(30)
+);
+
+insert into movie
+values('Kung Fu Panda 3','Big Cinemas','Kharghar','hollywood');
+
+
+insert into movie
+values('Kung Fu Panda 3','INOX','Vashi','hollywood');
+
+
+insert into movie
+values('The Man Who Knew Infinity','Big Cinemas','Kharghar','hollywood');
+
+
+insert into movie
+values('The Man Who Knew Infinity','PVR','andheri','hollywood');
+
+insert into movie
+values('Captain America : Civil War','Big Cinemas','Vashi','hollywood');
+
+
+
+insert into movie
+values('Captain America : Civil War','INOX','powai','hollywood');
+
+
+
+insert into movie
+values('Baaghi','Big Cinemas','powai','bollywood');
+
+
+insert into movie
+values('Baaghi','INOX','andheri','bollywood');
+
+insert into movie
+values('Sarabjit','INOX','Kharghar','bollywood');
+
+
+
+insert into movie
+values('Sarabjit','PVR','vashi','bollywood');
+
+
+
+create table name(
+name char(30),
+phoneno int(30));
+
+
+
